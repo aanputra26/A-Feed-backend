@@ -6,8 +6,8 @@ POST http://localhost:5000/register
 Content-Type: application/json
 
 {
-    "name": "A-Feed Capstone",
-    "email": "capstoneproject@bangkit.com",
+    "name": "latihan2",
+    "email": "latihan2@bangkit.com",
     "password": "123456",
     "confPassword": "123456"
 }
@@ -17,7 +17,7 @@ POST http://localhost:5000/login
 Content-Type: application/json
 
 {
-    "email": "capstoneproject@bangkit.com",
+    "email": "latihan2@bangkit.com",
     "password": "123456"
 }
 
