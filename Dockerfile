@@ -2,7 +2,7 @@ FROM node:18-buster
 
 WORKDIR /app
 
-ENV PORT 3000
+ENV PORT 5000
 
 COPY . .
 
