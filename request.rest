@@ -1,0 +1,28 @@
+GET http://localhost:5000/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsIm5hbWUiOiJVamFuZyBBcmlzYW5kaSIsImVtYWlsIjoidWphbmdhamFAZ21haWwuY29tIiwiaWF0IjoxNjM2MTQ1MTcyLCJleHAiOjE2MzYxNDUxODd9.h8XcA-_AwN1SRAQT1x1WI7GwV5EuVigM55BX7fU2xl0
+
+###
+POST http://localhost:5000/register
+Content-Type: application/json
+
+{
+    "name": "A-Feed Capstone",
+    "email": "capstoneproject@bangkit.com",
+    "password": "123456",
+    "confPassword": "123456"
+}
+
+###
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "email": "capstoneproject@bangkit.com",
+    "password": "123456"
+}
+
+###
+GET http://localhost:5000/token
+
+###
+DELETE http://localhost:5000/logout
